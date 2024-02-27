@@ -11,7 +11,7 @@ bar6="\033[0;31m--------------------------------------------------\033[0m"
 clear
 menu_adm1 (){
 echo -e $bar4
-echo -e "\E[3;36m          >>>>   MENU DE OPCIONES   <<<<          \E[0m"
+echo -e "\E[1;92m          #-->--#   MENU DE OPCIONES   #--<--#          \E[0m"
 echo -e $bar4
 echo -e "\033[1;31m[\033[1;36m1\033[1;31m] \033[1;37m• \033[1;33mADMINISTRAR USUARIOS v1 \E[0m \E[1;36m>>\E[0m \E[3;31mSSH/WS/UDP... \E[0m<<"
 echo -e "\033[1;31m[\033[1;36m2\033[1;31m] \033[1;37m• \033[1;33mADMINISTRAR USUARIOS v2\E[0m \E[1;36m>>\E[0m\E[3;31mSSH/WS/UDP...\E[0m<<"
@@ -63,7 +63,7 @@ esac
 clear
 admsshplus (){
 echo -e $bar2
-echo -e "\E[3;36m          ADMINISTRACION DE USUARIOS           \E[0m"
+echo -e "\E[1;92m       #-->--#   ADMINISTRACION DE USUARIOS   #--<--#        \E[0m"
 echo -e $bar2
 echo -e "\033[1;31m[\033[1;36m1\033[1;31m] \033[1;37m• \033[1;33mCREAR USUARIO >> SSH/UDP/WS"
 echo -e "\033[1;31m[\033[1;36m2\033[1;31m] \033[1;37m• \033[1;33mCREAR USUARIO DEMO"
@@ -195,7 +195,7 @@ _userexp=$(printf '%-5s' "$_expuser")
 _tuser=$(awk -F: '$3>=1000 {print $1}' /etc/passwd | grep -v nobody | wc -l)
 clear
 echo -e $bar4
-echo -e "\E[3;36m       >>>>   MENU DE HERRAMIENTAS V1   <<<<          \E[0m"
+echo -e "\E[1;92m       #-->--#   MENU DE HERRAMIENTAS V1   #--<--#          \E[0m"
 echo -e $bar4
 echo -e "\033[1;31m[\033[1;36m1\033[1;31m] \033[1;37m• \033[1;33mTEST DE VELOCIDAD"
 echo -e "\033[1;31m[\033[1;36m2\033[1;31m] \033[1;37m• \033[1;33mAGREGAR/ELIMINAR BANNER"
@@ -296,7 +296,7 @@ _userexp=$(printf '%-5s' "$_expuser")
 _tuser=$(awk -F: '$3>=1000 {print $1}' /etc/passwd | grep -v nobody | wc -l)
 clear
 echo -e $bar4
-echo -e "\E[3;36m     >>>>   MENU DE HERRAMIENTAS V2   <<<<          \E[0m"
+echo -e "\E[1;92m     #-->--#   MENU DE HERRAMIENTAS V2   #--<--#          \E[0m"
 echo -e $bar4
 echo -e "\033[1;31m[\033[1;36m1\033[1;31m] \033[1;37m• \033[1;33mAGREGAR HOST"
 echo -e "\033[1;31m[\033[1;36m2\033[1;31m] \033[1;37m• \033[1;33mELIMINAR HOST"
@@ -361,7 +361,7 @@ esac
 clear
 admherramientasv3 (){
 echo -e $bar4
-echo -e "\E[3;36m       >>>>   MENU DE HERRAMIENTAS V3   <<<<          \E[0m"
+echo -e "\E[1;92m       #-->--#   MENU DE HERRAMIENTAS V3   #--<--#          \E[0m"
 echo -e $bar4
 echo -e "\033[1;31m[\033[1;36m1\033[1;31m] \033[1;37m• \033[1;33mTCP TWEEKER"
 echo -e "\033[1;31m[\033[1;36m2\033[1;31m] \033[1;37m• \033[1;33mBLOCKEADOR DE SITIOS WEB"
@@ -440,7 +440,7 @@ esac
 clear
 menuprotocolosv2 (){
 echo -e $bar4
-echo -e "\E[3;36m          >>>>   MENU DE PROTOCOLOS V2   <<<<          \E[0m"
+echo -e "\E[1;92m          #-->--#   MENU DE PROTOCOLOS V2   #--<--#          \E[0m"
 echo -e $bar4
 echo -e "\033[1;31m[\033[1;36m1\033[1;31m] \033[1;37m• \033[1;33mMENU ADM >>UDP CUSTOM<<"
 echo -e "\033[1;31m[\033[1;36m2\033[1;31m] \033[1;37m• \033[1;33mMENU ADM >>PSIPHON v1<<"
@@ -488,7 +488,7 @@ esac
 clear
 paneludp (){
 echo -e $bar
-echo -e "\E[44;1;36m               PANEL UDP CUSTOM              \E[0m"
+echo -e "\E[1;92m        #-->--# PANEL UDP CUSTOM #--<--#              \E[0m"
 echo -e $bar
 echo -e "\033[1;31m[\033[1;36m1\033[1;31m] \033[1;37m• \033[1;33mMENU INSTALAR >>UDP CUSTOM<<"
 echo -e "\033[1;31m[\033[1;36m2\033[1;31m] \033[1;37m• \033[1;33mACCEDER AL PANEL"
