@@ -13,7 +13,7 @@ menu_adm1 (){
 echo -e "\033[0;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "\E[1;92m       #-->--#   MENU DE OPCIONES   #--<--#          \E[0m"
 echo -e "\033[0;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "\033[1;31m[\033[1;36m1\033[1;31m] \033[1;37m• \033[1;33mADMINISTRAR USUARIOS v1\E[0m \E[1;36m>>\E[0m \E[3;31mSSH/WS/UDP... \E[0m<<"
+echo -e "\033[1;31m[\033[1;36m1\033[1;31m] \033[1;37m• \033[1;33mADMINISTRAR USUARIOS v1\E[0m \E[1;36m>>\E[0m\E[3;31mSSH/WS/UDP... \E[0m<<"
 echo -e "\033[1;31m[\033[1;36m2\033[1;31m] \033[1;37m• \033[1;33mADMINISTRAR USUARIOS v2\E[0m \E[1;36m>>\E[0m\E[3;31mSSH/WS/UDP...\E[0m<<"
 echo -e "\033[1;31m[\033[1;36m3\033[1;31m] \033[1;37m• \033[1;33mADMINISTRAR USUARIOS\E[0m \E[1;36m>>\E[0m\E[3;31mHWID\E[0m<<"
 echo -e "\033[1;31m[\033[1;36m4\033[1;31m] \033[1;37m• \033[1;33mADMINISTRAR USUARIOS\E[0m \E[1;36m>>\E[0m\E[3;31mTOKEN v2\E[0m<<"
@@ -21,7 +21,7 @@ echo -e "\033[1;31m[\033[1;36m5\033[1;31m] \033[1;37m• \033[1;33mADMINISTRAR U
 echo -e "\033[1;31m[\033[1;36m6\033[1;31m] \033[1;37m• \033[1;33mADMINISTRAR USUARIOS\E[0m \E[1;36m>>\E[0m\E[3;31mV2RAY\E[0m<<"
 echo -e "\033[1;31m[\033[1;36m0\033[1;31m] \033[1;37m• \e[97m\033[1;41mVOLVER"
 echo -e "\033[0;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -ne "\033[1;32m➜ INGRESE UNA OPCION: \033[1;37m "; read option
+echo -ne "\033[1;92m➜ INGRESE UNA OPCION: \033[1;37m "; read option
 case $option in 
 
       1)  
