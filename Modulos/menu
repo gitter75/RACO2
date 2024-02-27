@@ -13,7 +13,7 @@ menu_adm1 (){
 echo -e "\033[0;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "\E[1;92m       #-->--#   MENU DE OPCIONES   #--<--#          \E[0m"
 echo -e "\033[0;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "\033[1;31m[\033[1;36m1\033[1;31m] \033[1;37m• \033[1;33mADMINISTRAR USUARIOS v1 \E[0m \E[1;36m>>\E[0m \E[3;31mSSH/WS/UDP... \E[0m<<"
+echo -e "\033[1;31m[\033[1;36m1\033[1;31m] \033[1;37m• \033[1;33mADMINISTRAR USUARIOS v1\E[0m \E[1;36m>>\E[0m \E[3;31mSSH/WS/UDP... \E[0m<<"
 echo -e "\033[1;31m[\033[1;36m2\033[1;31m] \033[1;37m• \033[1;33mADMINISTRAR USUARIOS v2\E[0m \E[1;36m>>\E[0m\E[3;31mSSH/WS/UDP...\E[0m<<"
 echo -e "\033[1;31m[\033[1;36m3\033[1;31m] \033[1;37m• \033[1;33mADMINISTRAR USUARIOS\E[0m \E[1;36m>>\E[0m\E[3;31mHWID\E[0m<<"
 echo -e "\033[1;31m[\033[1;36m4\033[1;31m] \033[1;37m• \033[1;33mADMINISTRAR USUARIOS\E[0m \E[1;36m>>\E[0m\E[3;31mTOKEN v2\E[0m<<"
@@ -893,13 +893,13 @@ _tuser=$(awk -F: '$3>=1000 {print $1}' /etc/passwd | grep -v nobody | wc -l)
 clear
 clear
 echo -e "\033[0;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "\E[3;92m          >--#   SCRIPT HELBOYVPS   #--<          \E[0m"
+echo -e "\E[1;92m          >--#   SCRIPT HELBOYVPS   #--<          \E[0m"
 echo -e "\033[0;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "\033[1;32mSISTEMA            MEMÓRIA RAM      PROCESADOR "
 echo -e "\033[1;31mOS: \033[1;37m$_system \033[1;31mTotal:\033[1;37m$_ram \033[1;31mNucleos: \033[1;37m$_core\033[0m"
 echo -e "\033[1;31mHora: \033[1;37m$_hora     \033[1;31mEm uso: \033[1;37m$_usor \033[1;31mEm uso: \033[1;37m$_usop\033[0m"
 echo -e "\033[0;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "\033[3;32mONLINES:\033[1;37m $_onlin     \033[3;31mEXPIRADOS: \033[1;37m$_userexp \033[3;36m   TOTAL: \033[1;37m$_tuser\033[0m"
+echo -e "\033[1;32mONLINES:\033[1;37m $_onlin     \033[1;31mEXPIRADOS: \033[1;37m$_userexp \033[1;36m   TOTAL: \033[1;37m$_tuser\033[0m"
 echo -e "\033[0;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 [[ ! -e /tmp/att ]]  && {
     var01='\033[1;37m•'
@@ -918,7 +918,7 @@ echo -e "\033[1;31m[\033[1;36m1\033[1;31m] \033[1;37m• \033[1;33mADMINISTRADOR
 [\033[1;36m9\033[1;31m] \033[1;37m[!]\033[1;92mLIMPIAR VPS <> OPTIMIZADOR 🧽\033[1;31m
 [\033[1;36m10\033[1;31m] \033[1;37m• \033[1;33mINICIO AUTOMATICO ⌛️ $autm\033[1;31m 
 $bar4
-[\033[1;36m11\033[1;31m]\033[1;37m•\033[3;32mACTUALIZAR $var01 \033[1;31m [\033[1;36m12\033[1;31m]\033[1;37m[!]\033[3;31mDESINSTALAR\033[1;31m [\033[1;36m0\033[1;31m] \033[1;37m• \e[97m\033[3;41mSALIR \033[1;31m"                 
+[\033[1;36m11\033[1;31m]\033[1;37m•\033[1;32mACTUALIZAR $var01 \033[1;31m [\033[1;36m12\033[1;31m]\033[1;37m[!]\033[1;31mDESINSTALAR\033[1;31m [\033[1;36m0\033[1;31m] \033[1;37m• \e[97m\033[1;41mSALIR \033[1;31m"                 
 echo -e "\033[0;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -ne "\033[1;36m┗━┫ INGRESE UNA OPCION: \033[1;37m "; read option
 
