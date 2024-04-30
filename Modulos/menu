@@ -429,6 +429,9 @@ case $option in
       11)
       clear
       bash <(curl -sL https://raw.githubusercontent.com/gitter75/HERRAMIENTAS/main/HERRAMIENTAS/APPONLINE) ;;
+      12)
+      clear
+      bash <(curl -sL https://raw.githubusercontent.com/gitter75/HERRAMIENTAS/main/HERRAMIENTAS/CHECKUSER) ;;
       0)
       echo -e "\033[1;31mSALIENDO...\033[0m"
       sleep 2
