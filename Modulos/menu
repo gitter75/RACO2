@@ -373,6 +373,8 @@ echo -e "\033[1;31m[\033[1;36m7\033[1;31m] \033[1;37m• \033[1;33mTCP BBR By La
 echo -e "\033[1;31m[\033[1;36m8\033[1;31m] \033[1;37m• \033[1;33mFIREWALL By Kalix"
 echo -e "\033[1;31m[\033[1;36m9\033[1;31m] \033[1;37m• \033[1;33mTCP BBR By Kalix"
 echo -e "\033[1;31m[\033[1;36m10\033[1;31m] \033[1;37m• \033[1;33mFAIL2BAN"
+echo -e "\033[1;31m[\033[1;36m11\033[1;31m] \033[1;37m• \033[1;33mAPP ONLINE"
+echo -e "\033[1;31m[\033[1;36m12\033[1;31m] \033[1;37m• \033[1;33mCHECKUSER"
 echo -e "\033[1;31m[\033[1;36m0\033[1;31m] \033[1;37m• \e[97m\033[1;41mVOLVER"
 echo -e "\033[0;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -ne "\033[1;32m➜ INGRESE UNA OPCION: \033[1;37m "; read option
@@ -424,6 +426,9 @@ case $option in
       10)
       clear
       bash <(curl -sL https://raw.githubusercontent.com/gitter75/HERRAMIENTAS/main/HERRAMIENTAS/FAIL2BAN) ;;
+      11)
+      clear
+      bash <(curl -sL https://raw.githubusercontent.com/gitter75/HERRAMIENTAS/main/HERRAMIENTAS/APPONLINE) ;;
       0)
       echo -e "\033[1;31mSALIENDO...\033[0m"
       sleep 2
