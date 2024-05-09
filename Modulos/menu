@@ -345,7 +345,10 @@ case $option in
       clear
       senharoot
       sleep 3 ;;
-      9) initcheck ;;
+      9) 
+      clear
+      initcheck 
+      ;;
       0)
       echo -e "\033[1;31mSALIENDO...\033[0m"
       sleep 2
