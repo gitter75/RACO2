@@ -306,6 +306,7 @@ echo -e "\033[1;31m[\033[1;36m5\033[1;31m] \033[1;37m• \033[1;33mBLOQUEAR TORR
 echo -e "\033[1;31m[\033[1;36m6\033[1;31m] \033[1;37m• \033[1;33mBOT DE TELEGRAM $stsbot\033[1;31m"
 echo -e "\033[1;31m[\033[1;36m7\033[1;31m] \033[1;37m• \033[1;33mBOT USER TEST $stsbotteste\033[1;31m"
 echo -e "\033[1;31m[\033[1;36m8\033[1;31m] \033[1;37m• \033[1;33mCAMBIAR CONTRASEÑA ROOT"
+echo -e "\033[1;31m[\033[1;36m9\033[1;31m] \033[1;37m• \033[1;33mACTIVAR CHECKUSER"
 echo -e "\033[1;31m[\033[1;36m0\033[1;31m] \033[1;37m• \e[97m\033[1;41mVOLVER \033[1;31m"
 echo -e "\033[0;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -ne "\033[1;32m➜ INGRESE UNA OPCION: \033[1;37m "; read option
@@ -344,6 +345,7 @@ case $option in
       clear
       senharoot
       sleep 3 ;;
+      9) initcheck ;;
       0)
       echo -e "\033[1;31mSALIENDO...\033[0m"
       sleep 2
