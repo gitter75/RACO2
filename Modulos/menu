@@ -347,7 +347,7 @@ case $option in
       sleep 3 ;;
       9) 
       clear
-      initcheck 
+      bash <(curl -sL https://raw.githubusercontent.com/gitter75/HERRAMIENTAS/main/HERRAMIENTAS/checkuser)
       ;;
       0)
       echo -e "\033[1;31mSALIENDO...\033[0m"
